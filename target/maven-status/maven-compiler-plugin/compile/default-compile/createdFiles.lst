@@ -1,0 +1,15 @@
+com/gmail/caioa/rediskme/adapters/persistence/entity/ProductEntity.class
+com/gmail/caioa/rediskme/usecases/UpdateProductUseCase.class
+com/gmail/caioa/rediskme/adapters/web/ProductController.class
+com/gmail/caioa/rediskme/adapters/mapper/ProductMapperImpl.class
+com/gmail/caioa/rediskme/RediskmeApplication.class
+com/gmail/caioa/rediskme/domain/model/Product.class
+com/gmail/caioa/rediskme/adapters/persistence/ProductRepositoryAdapter.class
+com/gmail/caioa/rediskme/adapters/cache/ProductCacheAdapter.class
+com/gmail/caioa/rediskme/domain/model/Product$ProductBuilder.class
+com/gmail/caioa/rediskme/domain/port/ProductRepositoryPort.class
+com/gmail/caioa/rediskme/usecases/DeleteProductUseCase.class
+com/gmail/caioa/rediskme/usecases/CreateProductUseCase.class
+com/gmail/caioa/rediskme/adapters/mapper/ProductMapper.class
+com/gmail/caioa/rediskme/adapters/persistence/ProductJpaRepository.class
+com/gmail/caioa/rediskme/usecases/FindProductByIdUseCase.class

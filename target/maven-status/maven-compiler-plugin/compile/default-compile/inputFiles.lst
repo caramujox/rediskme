@@ -1,0 +1,13 @@
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/adapters/persistence/ProductJpaRepository.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/RediskmeApplication.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/domain/model/Product.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/adapters/persistence/entity/ProductEntity.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/usecases/CreateProductUseCase.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/usecases/DeleteProductUseCase.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/adapters/persistence/ProductRepositoryAdapter.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/usecases/UpdateProductUseCase.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/usecases/FindProductByIdUseCase.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/domain/port/ProductRepositoryPort.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/adapters/cache/ProductCacheAdapter.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/adapters/mapper/ProductMapper.java
+/Users/caioaraujo/Studies/Java/rediskme/src/main/java/com/gmail/caioa/rediskme/adapters/web/ProductController.java

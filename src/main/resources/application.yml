@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: rediskme
+    datasource:
+        url: jdbc:mysql://localhost:3306/rediskme
+        username: caramujox
+        password: caramujox
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    redis:
+        host: redis
+        port: 6379
