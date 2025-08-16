@@ -5,6 +5,7 @@ package com.gmail.caioa.rediskme.adapters.mapper;
 import com.gmail.caioa.rediskme.adapters.persistence.entity.ProductEntity;
 import com.gmail.caioa.rediskme.domain.model.Product;
 import org.mapstruct.Mapper;
+import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 

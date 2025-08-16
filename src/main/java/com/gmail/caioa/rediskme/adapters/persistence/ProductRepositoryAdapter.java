@@ -3,19 +3,22 @@ package com.gmail.caioa.rediskme.adapters.persistence;
 import com.gmail.caioa.rediskme.adapters.mapper.ProductMapper;
 import com.gmail.caioa.rediskme.domain.model.Product;
 import com.gmail.caioa.rediskme.domain.port.ProductRepositoryPort;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+@AllArgsConstructor
 @Component
 public class ProductRepositoryAdapter implements ProductRepositoryPort {
 
     private ProductJpaRepository productJpaRepository;
-    private ProductMapper productMapper;
+    private final ProductMapper productMapper;
 
     @Override
     public Product createProduct(Product product) {
-        productJpaRepository.save(productMapper.toEntity(product));
+        var productEntity = productMapper.toEntity(product);
+        productJpaRepository.save(productEntity);
         return product;
     }
 

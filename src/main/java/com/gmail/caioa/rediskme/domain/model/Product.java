@@ -2,6 +2,8 @@ package com.gmail.caioa.rediskme.domain.model;
 
 import lombok.*;
 
+import java.util.UUID;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
