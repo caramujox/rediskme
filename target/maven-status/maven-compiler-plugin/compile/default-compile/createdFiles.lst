@@ -4,6 +4,8 @@ com/gmail/caioa/rediskme/adapters/web/ProductController.class
 com/gmail/caioa/rediskme/adapters/mapper/ProductMapperImpl.class
 com/gmail/caioa/rediskme/RediskmeApplication.class
 com/gmail/caioa/rediskme/domain/model/Product.class
+com/gmail/caioa/rediskme/adapters/web/dto/ProductDTO$ProductDTOBuilder.class
+com/gmail/caioa/rediskme/adapters/web/dto/ProductDTO.class
 com/gmail/caioa/rediskme/adapters/persistence/ProductRepositoryAdapter.class
 com/gmail/caioa/rediskme/adapters/cache/ProductCacheAdapter.class
 com/gmail/caioa/rediskme/domain/model/Product$ProductBuilder.class

@@ -1,6 +1,7 @@
 package com.gmail.caioa.rediskme.adapters.persistence;
 
 import com.gmail.caioa.rediskme.adapters.mapper.ProductMapper;
+import com.gmail.caioa.rediskme.adapters.persistence.entity.ProductEntity;
 import com.gmail.caioa.rediskme.domain.model.Product;
 import com.gmail.caioa.rediskme.domain.port.ProductRepositoryPort;
 import lombok.AllArgsConstructor;
@@ -17,21 +18,22 @@ public class ProductRepositoryAdapter implements ProductRepositoryPort {
 
     @Override
     public Product createProduct(Product product) {
-        var productEntity = productMapper.toEntity(product);
-        productJpaRepository.save(productEntity);
-        return product;
+        var productEntity = productMapper.mapDomainToEntity(product);
+        ProductEntity savedEntity = productJpaRepository.save(productEntity);
+        return productMapper.mapEntityToDomain(savedEntity);
     }
 
     @Override
     public Product findById(String id) {
-        return productMapper.toDomain(productJpaRepository.findById(id));
+        ProductEntity productEntity = productJpaRepository.findById(id).orElseThrow(RuntimeException::new);
+        return productMapper.mapEntityToDomain(productEntity);
     }
 
     @Override
     public Product updateProduct(Product product) {
-        var inputEntity = productMapper.toEntity(product);
+        var inputEntity = productMapper.mapDomainToEntity(product);
         var savedEntity = productJpaRepository.save(inputEntity);
-        return productMapper.toDomain(Optional.of(savedEntity));
+        return productMapper.mapEntityToDomain(savedEntity);
     }
 
     @Override

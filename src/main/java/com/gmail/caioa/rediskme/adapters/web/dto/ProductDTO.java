@@ -1,8 +1,6 @@
-package com.gmail.caioa.rediskme.domain.model;
+package com.gmail.caioa.rediskme.adapters.web.dto;
 
 import lombok.*;
-
-import java.util.UUID;
 
 @Getter
 @Setter
@@ -10,8 +8,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Product {
-    private String id;
+public class ProductDTO {
     private String name;
     private Double value;
 }
